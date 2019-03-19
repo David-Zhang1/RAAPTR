@@ -1,0 +1,50 @@
+parameters of pulsar: 9D
+
+% total
+PSRJ           J0030+0451
+RAJ             00:30:27.4282993         1  0.00004790455692287045      //right ascension
+DECJ           +04:51:39.70950           1  0.00165127734832568529      //declination
+F0             205.53069593846151226     1  2.0936690058378907688e-13   //The 0’th time derivative of the rotational frequency
+F1             -4.2977839211116606899e-16 1  6.0385660812965405782e-21  //The 1’th time derivative of the rotational frequency
+PEPOCH         55000                                                   //Epoch of period determination
+POSEPOCH       55000                                                   //Epoch of position measurement
+DMEPOCH        55000                                                   //Epoch of DM measurement
+DM             4.3329042093676905186     0  0.00005476719205151239     //Dispersion measure
+DM1            0                         0                             //1’th time derivative of the dispersion measure
+DM2            0                         0                             //2’th time derivative of the dispersion measure
+PMRA           -5.9198655611630737724    1  0.28775118136173349903     //proper motion in right ascension mas/y
+PMDEC          -0.23312442487351413127   1  0.66292285455462662824     //proper motion in declination
+PX             2.843704709620419824      1  0.16625430289305362375     //Parallax
+
+TZRMJD         53394.855385867088174       
+TZRFRQ          1440
+TZRSITE        AXIS
+TRES           0.000        
+EPHVER         5                           
+NE_SW          4                           
+CLK            TT(BIPM2015)
+MODE 1
+UNITS          TCB
+TIMEEPH        IF99
+DILATEFREQ     Y
+PLANET_SHAPIRO Y
+T2CMETHOD      IAU2000B
+NE_SW          4.000
+CORRECT_TROPOSPHERE  Y
+EPHEM          DE436
+NITS           1
+NTOA           0
+CHI2R          nan 0
+
+% varying between prefit and postfit
+RAJ (rad)       0.132894336112106         0.132894340024516         1.3276e-08    3.9124e-09    Y   right ascension, 赤经,上升
+RAJ (hms)       00:30:27.4282993           00:30:27.4283531         0.00018256    5.38e-05     
+DECJ (rad)      0.0848409858104252        0.0848409782645725        3.0847e-08    -7.5459e-09   Y   declination,
+DECJ (dms)      +04:51:39.70950           +04:51:39.70794           0.0063627     -0.0015564   
+F0 (s^-1)       205.530695938462          205.530695938461          5.0869e-13    -2.8422e-14   Y   The 0’th time derivative of the rotational frequency
+F1 (s^-2)       -4.29778392111166e-16     -4.29770363429139e-16     7.1574e-21    8.0287e-21    Y   The 1’th time derivative of the rotational frequency
+
+PMRA (mas/yr)   -5.91986556116307         -5.95720891767205         0.60969       -0.037343     Y   proper motion in right ascension
+PMDEC (mas/yr)  -0.233124424873514        -0.324694892306186        1.4217        -0.09157      Y   proper motion in declination
+PX (mas)        2.84370470962042          1.93874286266527          0.66375       -0.90496      Y   Parallax
+
