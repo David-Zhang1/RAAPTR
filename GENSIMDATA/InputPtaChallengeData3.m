@@ -1,9 +1,11 @@
 %% Converting
-% A script convert searchParams file from .mat to hdf5
 clear
+
+%% inputData.mat to hdf5
 delete('TESTDATA2/inputData.hdf5')
 mpavinfile2hdf5('TESTDATA2/inputData.mat')
 
+%% A script convert searchParams file from .mat to hdf5
 name = 'searchParams_simDataSKA_X.mat';
 inFileList = dir(name);
 %mkdir('searchParams_HDF5');

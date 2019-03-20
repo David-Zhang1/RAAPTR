@@ -9,7 +9,7 @@
 tic;
 clear;
 NumGWsources = 100;
-NumPulsar = 1000;
+NumPulsar = 33;
 NumNoiseReali = 5;
 NumRealiNoise = 3;
 parameters(NumGWsources,NumPulsar,NumNoiseReali,NumRealiNoise)
